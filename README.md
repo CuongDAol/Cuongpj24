@@ -1,65 +1,41 @@
-Sales Analysis
+### 📊 Phân Tích Dữ Liệu Kinh Doanh
 
-Giới thiệu
 
-Dự án này phân tích dữ liệu bán hàng nhằm tìm ra các xu hướng quan trọng, giúp tối ưu hóa chiến lược kinh doanh. Dữ liệu được thu thập từ nhiều đơn hàng khác nhau, bao gồm thông tin về ngày đặt hàng, sản phẩm, số lượng, giá cả và địa chỉ mua hàng.
+🚀 Mô tả
+Dự án này tập trung vào việc phân tích dữ liệu kinh doanh để tối ưu hóa chiến lược bán hàng và ra quyết định. Sử dụng các công cụ như Python, Pandas, Matplotlib, Scikit-learn, v.v.
 
-Mục tiêu
+📂 Mục lục
+📊 Tổng quan dự án
+🛠️ Công nghệ sử dụng
+📈 Phân tích dữ liệu
+🚀 Cách chạy dự án
+📧 Liên hệ
+📊 Tổng quan dự án
+Dự án này thực hiện phân tích dữ liệu doanh thu và hành vi khách hàng nhằm:
+✅ Xác định xu hướng doanh thu theo thời gian
+✅ Dự đoán doanh số trong tương lai
+✅ Tìm hiểu yếu tố ảnh hưởng đến doanh thu
 
-Xác định tháng có doanh thu cao nhất và tổng doanh thu tháng đó.
+🛠️ Công nghệ sử dụng
+Ngôn ngữ: Python
+Thư viện: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+Công cụ: Jupyter Notebook, Google Colab
+📈 Phân tích dữ liệu
+Bước 1: Thu thập và làm sạch dữ liệu
+Bước 2: Trực quan hóa dữ liệu (biểu đồ doanh thu, xu hướng...)
+Bước 3: Dự đoán doanh số bằng mô hình Machine Learning
+Bước 4: Đưa ra kết luận và chiến lược kinh doanh
+🚀 Cách chạy dự án
+2️⃣ Cài đặt các thư viện cần thiết:
 
-Tìm thành phố bán được nhiều sản phẩm nhất.
 
-Xác định khoảng thời gian nên chạy quảng cáo để tăng doanh số.
+Chỉnh sửa
+pip install -r requirements.txt
+3️⃣ Chạy file Jupyter Notebook hoặc Python script:
 
-Tìm sản phẩm được bán nhiều nhất và phân tích lý do.
-
-Dữ liệu
-
-Order Date: Ngày đặt hàng
-
-Product: Sản phẩm
-
-Quantity Ordered: Số lượng đặt hàng
-
-Price Each: Giá từng sản phẩm
-
-Purchase Address: Địa chỉ mua hàng
-
-Công cụ sử dụng
-
-Python (pandas, matplotlib, seaborn)
-
-Jupyter Notebook hoặc Google Colab
-
-Cài đặt
-
-Clone repository:
-
-Cài đặt thư viện cần thiết:
-
-pip install pandas matplotlib seaborn
-
-Chạy phân tích trong notebook:
-
-jupyter notebook
-
-## Phân tích chính
-
-Doanh thu theo tháng: Nhóm dữ liệu theo tháng và tính tổng doanh thu.
-
-Thành phố bán chạy nhất: Trích xuất thông tin thành phố từ địa chỉ mua hàng và tổng hợp số lượng sản phẩm bán ra.
-
-Khung giờ bán hàng cao nhất: Phân tích số lượng đơn hàng theo từng giờ trong ngày.
-
-Sản phẩm bán chạy nhất: Nhóm dữ liệu theo sản phẩm và tính tổng số lượng đã bán.
-
-## Kết quả mong đợi
-
-Xác định tháng cao điểm giúp lên kế hoạch hàng tồn kho hợp lý.
-
-Nhắm mục tiêu quảng cáo hiệu quả theo khu vực địa lý.
-
-Tối ưu hóa chiến dịch marketing theo khung giờ vàng.
-
-Tìm hiểu xu hướng mua hàng theo từng loại sản phẩm.
+bash
+Sao chép
+Chỉnh sửa
+jupyter notebook analysis.ipynb
+# Hoặc chạy script
+python analysis.py
